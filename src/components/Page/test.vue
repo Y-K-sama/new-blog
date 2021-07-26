@@ -1,19 +1,16 @@
 <template>
-  <div>helloworld</div>
-  <Test />
+  <Page :total="101" />
 </template>
 
 <script>
-import Test from '@/components/Page/test.vue';
+import Page from './index.vue';
 
 export default {
   components: {
-    Test,
+    Page,
   },
-
 };
 </script>
 
 <style>
-
 </style>
